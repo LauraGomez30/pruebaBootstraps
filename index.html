@@ -12,6 +12,22 @@
 </head>
 <body>
 
+	<!-- inicio offcanvas -->
+	<div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Redes Sociales </h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Facebook</p>
+    <p>Facebook</p>
+    <p>Facebook</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+
+	<!-- fin offcanvas -->
+
 	<!-- inicio del nav -->
 
 	<nav class="navbar navbar-expand-lg bg-danger">
@@ -47,7 +63,8 @@
 
 	<!-- fin del nav -->
 
-	
+
+
 	<!-- The Modal -->
 <div class="modal" id="myModal">
   <div class="modal-dialog">
@@ -59,11 +76,14 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
+
       <!-- Modal body -->
       <div class="modal-body" style="color: #000000;">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus rem maiores, eum ipsam repellendus ullam adipisci veniam expedita! Dolorem aspernatur, amet explicabo odio libero omnis, voluptatem saepe fugit voluptatum perspiciatis.
+        <p>*laura camila gomez ramirez</p>
+        <p>*21 años</p>
+        <p>*estudiante d ingenieria de sistemas</p>
       </div>
-
+<!-- fin modal 1 -->
       <!-- Modal footer -->
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
@@ -87,6 +107,7 @@
     </div>
 
     <!-- The slideshow/carousel -->
+
     <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/imagen1.png" alt="Los Angeles" class="d-block" style="width: 100%">
@@ -116,7 +137,13 @@
 
 	<div class="container"> 
 
-	<button type="button" class="btn btn-danger">Eliminar</button>
+	<button type="button" class="btn btn-danger">Eliminar</button> 
+	<br>
+	
+	<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Open Offcanvas Sidebar
+  </button>
+
 
 	<h2>Container</h2>
 
@@ -128,6 +155,30 @@
 		<button type="button" class="btn btn-primary">Agregar</button>
 
 		<h2>Container Fluid</h2>
+
+		<!-- inicio card -->
+		<div class="container mt-3">
+    <h2>Card Image</h2>
+    <p>Image at the top (card-img-top):</p>
+    <div class="card" style="width:400px">
+    <img class="card-img-top" src="img/img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Laura Gomez</h4>
+      <p class="card-text">Ingenieria de Sistemas</p>
+						  
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+						       ver perfil
+						       </button>
+						       <br>
+						       </div>
+
+					    	<!-- fin boton modal -->
+     
+
+    </div>
+    </div>
+
+		<!-- cierra card -->
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, delectus, omnis. Repellat ad quos dolor itaque corrupti nobis totam possimus veniam delectus qui minima, adipisci dolore neque hic. Quidem, unde!</p>
 
@@ -168,14 +219,18 @@
 
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae error labore iusto quasi exercitationem laudantium id expedita excepturi suscipit ducimus sapiente fugit ea natus vel fuga, voluptatem dolore facere molestias!</p>
 
+                <!-- inicio boton modal -->
 										<div class="container mt-3">
-						  <h3>Modal Example</h3>
-						  <p>Click on the button to open the modal.</p>
+						        <h3>Modal Example</h3>
+						        <p>Click on the button to open the modal.</p>
 						  
-						  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
-						    Open modal
-						  </button>
-						</div>
+						       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+						       Open modal
+						       </button>
+						       <br>
+						       </div>
+
+					    	<!-- fin boton modal -->
 										
 			</div>
 
