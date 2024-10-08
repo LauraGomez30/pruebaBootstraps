@@ -12,8 +12,15 @@
 </head>
 <body>
 
+	<!--inicio acordion -->
+
+
+
+	<!-- fin acordion -->
+
 	<!-- inicio offcanvas -->
-	<div class="offcanvas offcanvas-start" id="demo">
+
+	<div class="offcanvas offcanvas-start" id="demo2">
   <div class="offcanvas-header">
     <h1 class="offcanvas-title">Redes Sociales </h1>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -24,6 +31,7 @@
     <p>Facebook</p>
     <button class="btn btn-secondary" type="button">A Button</button>
   </div>
+
 </div>
 
 	<!-- fin offcanvas -->
@@ -39,7 +47,7 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#">Home</a>
+				<a class="nav-link active" aria-current="page" href="#">Inicio</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="#">Contacto</a>
@@ -60,14 +68,13 @@
 		</div>
 	  </nav>
 
-
 	<!-- fin del nav -->
 
 
 
-	<!-- The Modal -->
+	<!-- The Modal 1 -->
 <div class="modal" id="myModal">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-sm">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -79,25 +86,64 @@
 
       <!-- Modal body -->
       <div class="modal-body" style="color: #000000;">
-        <p>*laura camila gomez ramirez</p>
-        <p>*21 años</p>
-        <p>*estudiante d ingenieria de sistemas</p>
+      	Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellat, sint saepe exercitationem harum consequatur voluptate voluptas quo, ipsa tempora numquam, quam dolores recusandae, debitis alias sit ab. Praesentium, voluptate.
       </div>
-<!-- fin modal 1 -->
+
       <!-- Modal footer -->
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
       </div>
 
+     </div>
     </div>
   </div>
-</div>
+
+<!-- fin modal 1-->
+
+<!-- The Modal 2 -->
+<div class="modal" id="informacion">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title" style="color: #000000;">Informacion Personal</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+
+      <!-- Modal body -->
+      <div class="modal-body" style="color: #000000;">
+      	<p>laura camila gomez ramirez</p>
+		    <p>21 añoa</p>
+		    <p>estudiante de ingenieria de sistemas</p>
+
+      </div>
+
+      <!--  -->
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+
+
+     </div>
+    </div>
+  </div>
+<!-- fin modal 2-->
+
+
+
+<div class="container-fluid">
 
 	<!-- Inicio de Corosuel -->
 
 	<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
     <!-- Indicators/dots -->
+
     <div class="carousel-indicators">
     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -127,27 +173,31 @@
     </div>
 
     <!-- Left and right controls/icons -->
+
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
+       <span class="carousel-control-prev-icon"></span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
+       <span class="carousel-control-next-icon"></span>
     </button>
     </div>
 
-	<div class="container"> 
+    <!-- fin carousel -->
+    </div>
 
-	<button type="button" class="btn btn-danger">Eliminar</button> 
-	<br>
+	<div class="container-fluid"> 
+
+	  <button type="button" class="btn btn-danger">Eliminar</button> 
+	  <br>
 	
-	<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
-    Open Offcanvas Sidebar
-  </button>
+	    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo2">
+      Ver Offcanvas 
+      </button>
 
 
-	<h2>Container</h2>
+	  <h2>Container</h2>
 
-	<p> Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Iste sunt eaque libero, tenetur, incidunt inventore totam? Harum quod cumque laudantium quas rerum minima eveniet officiis atque fugit nulla. Quasi, et!</p>
+	  <p> Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Iste sunt eaque libero, tenetur, incidunt inventore totam? Harum quod cumque laudantium quas rerum minima eveniet officiis atque fugit nulla. Quasi, et!</p>
 
 	</div>
 	
@@ -157,6 +207,7 @@
 		<h2>Container Fluid</h2>
 
 		<!-- inicio card -->
+
 		<div class="container mt-3">
     <h2>Card Image</h2>
     <p>Image at the top (card-img-top):</p>
@@ -166,20 +217,125 @@
       <h4 class="card-title">Laura Gomez</h4>
       <p class="card-text">Ingenieria de Sistemas</p>
 						  
-			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-						       ver perfil
-						       </button>
-						       <br>
-						       </div>
-
-					    	<!-- fin boton modal -->
-     
-
-    </div>
-    </div>
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#informacion">
+				ver perfil
+			</button>
+			<br>
+			</div>
+	
+      </div>
+      </div>
 
 		<!-- cierra card -->
+  <!-- Inicio Acordeon -->
+   <div class="container mt-3">
+        <h2>Accordion Example</h2>
+        <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                Collapsible Group Item #1
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+              Collapsible Group Item #2
+            </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                Collapsible Group Item #3
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                Collapsible Group Item #4
+              </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                Collapsible Group Item #5
+              </a>
+            </div>
+            <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+  <!-- Fin de acordeon -->
+
+<div class="container-fluid">
+          
+            <!-- Inicio scrollspy -->
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-button">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">Section 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">Section 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">Section 3</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+      <h1>Section 1</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+    
+    <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+      <h1>Section 2</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+    
+    <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+      <h1>Section 3</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+
+    <!-- Fin scrollspy -->
+        </div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, delectus, omnis. Repellat ad quos dolor itaque corrupti nobis totam possimus veniam delectus qui minima, adipisci dolore neque hic. Quidem, unde!</p>
 
 		<h2>Dividir nuestra pagina web</h2>
@@ -192,7 +348,7 @@
 
 		<div class="row">
 
-			<div class="col-sm-6" style="background-color: #3ae51f ";>
+			<div class="col-sm-6" style="background-color: #3ae51f ">
 
 				<h3>Primera Columna</h3>
 
@@ -219,18 +375,18 @@
 
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae error labore iusto quasi exercitationem laudantium id expedita excepturi suscipit ducimus sapiente fugit ea natus vel fuga, voluptatem dolore facere molestias!</p>
 
-                <!-- inicio boton modal -->
-										<div class="container mt-3">
-						        <h3>Modal Example</h3>
-						        <p>Click on the button to open the modal.</p>
+        <!-- inicio boton modal -->
+				<div class="container mt-3">
+				<h3>Modal Example</h3>
+				<p>Click on the button to open the modal.</p>
 						  
-						       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
-						       Open modal
-						       </button>
-						       <br>
-						       </div>
+				<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+				Open modal
+				</button>
+				<br>
+				</div>
 
-					    	<!-- fin boton modal -->
+				<!-- fin boton modal -->
 										
 			</div>
 
